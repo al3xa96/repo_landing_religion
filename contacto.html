@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CEP-CONTACTO</title>
+    <!-- Core CSS - Include with every page -->
+  <link rel="stylesheet" href="assets/plugins/materialize/css/materialize.css">
+  <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css"/>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <!-- node_modules -->
+  <link href="./node_modules/tachyons/css/tachyons.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:700,800" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+
+</head>
+<body>
+<!-- wrapper -->
+<div id="wrapper">
+    <!-- hidden nav -->
+    <div class="btn-hide right">
+      <p class="texto "><span>Centro Evangelístico Peniel</span></p>
+      <div class="btn-nx" onclick="toggle_button()">
+      <div class="mas"><span>Menú+</span></div>
+        <!-- <div class="iconbar"></div>
+        <div class="iconbar"></div>
+        <div class="iconbar"></div> -->
+      </div>
+    </div>
+  <div id="hide-nav" class="hide-nav ">
+    <ul class="list-hidden">
+        <li class=""><a class="" href="home.html">Início</a></li>
+        <li class=""><a href="conocenos.html">Conócenos</a></li>
+        <li class=""><a class="" href="conferencias.html">Conferencias</a></li>
+        <li class=""><a class="" href="noticias.html">Noticias</a></li>
+        <li class=""><a class="" href="iglesia.html">Iglesia Hacia Afuera</a></li>
+        <li class=""><a href="contacto.html">Contacto</a></li>
+        <!-- <li class="tab tab-nx right"><a href="">Revista Automated</a></li> -->
+      </ul>
+  </div>
+  <!-- end nav hidden -->
+  <!-- TOP TABS  -->
+  <section class="navbar-tabs navbar-tabs-cep">
+        <div class="center">
+            <img src="assets/img/icons/logo_cep_azul_png.png" class="imgtab" alt="">
+            <ul class="tabs">
+              <li class="tab left"><a href="home.html">INICIO</a></li>
+              <li class="tab left"><a href="conocenos.html">CONOCENOS</a></li>
+              <li class="tab left"><a href="conferencias.html">CONFERENCIAS</a></li>
+              <li class="tab right"><a class="active" href="contacto.html">CONTACTO</a></li>
+              <li class="tab right"><a href="iglesia.html">IGLESIA HACIA AFUERA</a></li>
+              <li class="tab right"><a  href="noticias.html">NOTICIAS</a></li>
+            </ul>
+       </div>
+  </section>
+      <!--END TOP TABS  -->
+      <!-- BANNER -->
+    <section class="row banner-contacto">
+    </section>
+    <!-- END BANNER -->
+    <div class="row division  division-contacto pt3 pb4">
+      <div class="divider-nt">
+        <div class="margen"></div>
+      </div>
+      <h5 class="ml1 b-text left">Información de Contacto</h5>
+    </div>
+  <!-- CONTACT DIRECTION -->
+  <section class="row contact-info">
+      <div class="col s12 m12 l6 contact-dir">
+        <h5 class="b-text"><img src="assets/img/icons/mapa_png_1.png" alt="">La Sede Sur <span class="b-text">|</span> <span> Ver mapa</span></h5>
+        <p>Calle 66 cruce con la Avenida 99-A bajo el número 99-35
+           a escasos 150 metros de la Avenida Bolivar Sur Las Ferias,
+           Sector 13 de Septiembre, Valencia.
+        </p>
+        <h5 class="b-text"><img src="assets/img/icons/mapa_png_1.png" alt="">La Sede Mega  <span class="b-text">|</span> <span> Ver mapa</span></h5>
+        <p>
+          Zona Industrial Ernesto Luis Branger
+          entre la Estación General de Bomberos
+        y la Estación de Servicio Texaco, Valencia
+        </p>
+      </div>
+      <div class="col s12 m12 l6 contact-red">
+          <h5><img src="assets/img/icons/phone_png.png" alt="" class="">0241-847 23 74 </h5>
+          <h5><img src="assets/img/icons/mail_png.png" alt="" class=""> centroevangelisticopeniel@gmail.com</h5>
+          <div class="iconos pt4">
+            <img class="ml1" src="assets/img/icons/logo_facebook_26x26px.png" alt="">
+            <img class="ml1" src="assets/img/icons/logo_instagram_26x26px.png" alt="">
+            <img class="ml1" src="assets/img/icons/logo_twitter_26x26px.png" alt="">
+          </div>
+      </div>
+  </section>
+  <!--END  CONTACT DIRECTION -->
+  <!-- CONTACT CARD -->
+  <section class="row contact-request">
+    <h5 class="b-text">Contáctanos</h5>
+    <div class="col s12 l6 push-l3 contact-card">
+      <div class="card-body ">
+        <span class="b-text">Nombre</span>
+        <input class="cont-input"type="text" name="" value="">
+        <span class="b-text">Correo Eléctronico</span>
+        <input class="cont-input"type="text" name="" value="">
+        <span class="b-text">Número de Teléfono</span>
+        <input class="cont-input"type="text" name="" value="">
+        <span class="b-text">Mensaje</span>
+        <textarea class="cont-input"name="name" rows="5" cols="80">
+        </textarea>
+        <a class="mt3 mb2 btn btn-cep b-text"href="#"><span class="w-text">ENVIAR</span></a>
+      </div>
+    </div>
+  </section>
+  <!-- END CONTACT CARD  -->
+  <!-- CONTACT SECTION -->
+  <section class="row bg-conf cont-container">
+    <div class="col s12 center cont-title mt4 pb5">
+      <h5 class="w-text">CO<span class="sub-white">NTAC</span>TO</h5>
+    </div>
+    <div class="col s12 m12 l6  contact-card mt4 mb5">
+      <p class="w-text">Envíanos tu petición de Oración</p>
+      <div class="card-body ">
+        <span class="b-text">Asunto (Petición de Oración)</span>
+        <input class="cont-input"type="text" name="" value="">
+        <span class="b-text">Nombre</span>
+        <input class="cont-input"type="text" name="" value="">
+        <span class="b-text">Correo Eléctronico</span>
+        <input class="cont-input"type="text" name="" value="">
+        <span class="b-text">Número de Teléfono</span>
+        <input class="cont-input"type="text" name="" value="">
+        <span class="b-text">Mensaje</span>
+        <textarea class="cont-input"name="name" rows="5" cols="80">
+        </textarea>
+        <a class="mt3 mb2 btn btn-cep b-text"href="#"><span class="w-text">ENVIAR</span></a>
+      </div>
+    </div>
+    <div class="col s12 m12 l6 contact-dir w-text right pull-l1 mb4">
+          <h6 class="w-text mb2">Ubícanos en cualquiera de nuestras sedes</h6>
+          <a href="#">
+              <img src="assets/img/icons/map_20x29px.png" alt="">
+              <span class="b sede">Sede Sur</span>
+          </a>
+          <p>Calle 66 cruce con la Avenida 99-A bajo el número 99-35<br>
+             a escasos 150 metros de la Avenida Bolivar Sur Las Ferias,<br>
+             Sector 13 de Septiembre, Valencia.
+          </p>
+          <div class="horario">
+              <p>Horario de Servicios</p>
+          <table>
+               <thead>
+                    <tr>
+                       <th>Lun y Mie</th>
+                       <th>jue</th>
+                       <th>Dom</th>
+                    </tr>
+               </thead>
+               <tbody>
+                    <tr>
+                       <th>00:00</th>
+                       <th>00:00</th>
+                       <th>00:00</th>
+                    </tr>
+                </tbody>
+          </table>
+          </div>
+          <div class="divider mb3">
+          </div>
+            <a href="#">
+              <img src="assets/img/icons/map_20x29px.png" alt="">
+            <span class="b sede">Sede Mega</span>
+            </a>
+            <p>Zona Industrial Ernesto Luis Branger<br>
+            entre la Estación General de Bomberos<br>
+          y la Estación de Servicio Texaco, Valencia</p>
+            <div class="horario">
+              <p>Horario de Servicios</p>
+            <table>
+              <thead>
+                <tr>
+                  <th>Lun y Mie</th>
+                  <th>jue</th>
+                  <th>Dom</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>00:00</th>
+                  <th>00:00</th>
+                  <th>00:00</th>
+                </tr>
+              </tbody>
+            </table>
+            </div>
+    </div>
+  </section>
+  <!-- END CONTACT SECTION -->
+  <!-- FOOTER -->
+  <footer class="center">
+    <div class="footer-text">
+      <h6> ¿DÓNDE ESTAMOS? </h6>
+      <span class="fa fa-angle-down"></span>
+    </div>
+    <img class="pb3"src="assets/img/icons/logo_cep_gris_png.png" alt="">
+    <p class="pb5">Derechos reservados Centro Evangelístico Peniel</p>
+  </footer>
+<!-- END FOOTER -->
+</div>
+<!-- End wrapper -->
+  <!-- scripts -->
+  <script src="assets/plugins/jquery-1.10.2.js "></script>
+  <script src="assets/plugins/materialize/js/materialize.js" ></script>
+  <script type="text/javascript">
+  // tab selector
+  function openTab (tabname){
+    var i, articletab;
+    articletab = document.getElementsByClassName("articletab");
+    for (i=0; i<articletab.length;i++){
+      articletab[i].style.display="none";
+    }
+    document.getElementById(tabname).style.display="block";
+  };
+  // side nav header
+  function toggle_button(){
+    var side = document.getElementById('hide-nav');
+    if (side.style.display === 'none'){
+      side.style.display = 'block';
+    } else {
+      side.style.display = 'none';
+    };
+  }
+  </script>
+
+
+</body>
+</html>
